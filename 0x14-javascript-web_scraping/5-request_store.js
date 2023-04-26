@@ -28,6 +28,7 @@ request(url, (error, response, body) => {
       process.exit(1);
     }
 
-    console.log(`Successfully wrote response body to ${file}`);
+    // Commented out the success message
+    // console.log(`Successfully wrote response body to ${file}`);
   });
 });
